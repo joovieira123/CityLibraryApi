@@ -18,11 +18,19 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server/3.0.0/build/Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server/3.0.0/build/Microsoft.Extensions.ApiDescription.Server.props')" />
     <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore/5.6.3/build/Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore/5.6.3/build/Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit3testadapter/3.17.0/build/netcoreapp2.1/NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter/3.17.0/build/netcoreapp2.1/NUnit3TestAdapter.props')" />
     <Import Project="$(NuGetPackageRoot)nunit/3.12.0/build/NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit/3.12.0/build/NUnit.props')" />
+    <Import Project="$(NuGetPackageRoot)mstest.testadapter/2.1.2/build/netcoreapp1.0/MSTest.TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)mstest.testadapter/2.1.2/build/netcoreapp1.0/MSTest.TestAdapter.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design/5.0.0/build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design/5.0.0/build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/joaovieira/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgNUnit_Extension_VSProjectLoader Condition=" '$(PkgNUnit_Extension_VSProjectLoader)' == '' ">/Users/joaovieira/.nuget/packages/nunit.extension.vsprojectloader/3.8.0</PkgNUnit_Extension_VSProjectLoader>
+    <PkgNUnit_Extension_TeamCityEventListener Condition=" '$(PkgNUnit_Extension_TeamCityEventListener)' == '' ">/Users/joaovieira/.nuget/packages/nunit.extension.teamcityeventlistener/1.0.7</PkgNUnit_Extension_TeamCityEventListener>
+    <PkgNUnit_Extension_NUnitV2ResultWriter Condition=" '$(PkgNUnit_Extension_NUnitV2ResultWriter)' == '' ">/Users/joaovieira/.nuget/packages/nunit.extension.nunitv2resultwriter/3.6.0</PkgNUnit_Extension_NUnitV2ResultWriter>
+    <PkgNUnit_Extension_NUnitV2Driver Condition=" '$(PkgNUnit_Extension_NUnitV2Driver)' == '' ">/Users/joaovieira/.nuget/packages/nunit.extension.nunitv2driver/3.8.0</PkgNUnit_Extension_NUnitV2Driver>
+    <PkgNUnit_Extension_NUnitProjectLoader Condition=" '$(PkgNUnit_Extension_NUnitProjectLoader)' == '' ">/Users/joaovieira/.nuget/packages/nunit.extension.nunitprojectloader/3.6.0</PkgNUnit_Extension_NUnitProjectLoader>
+    <PkgNUnit_ConsoleRunner Condition=" '$(PkgNUnit_ConsoleRunner)' == '' ">/Users/joaovieira/.nuget/packages/nunit.consolerunner/3.11.1</PkgNUnit_ConsoleRunner>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/joaovieira/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
   </PropertyGroup>
 </Project>

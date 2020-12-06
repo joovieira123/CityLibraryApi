@@ -38,6 +38,22 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFrameWork": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNet.WebApi.Tracing": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.WebHost": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.0, )",
@@ -81,6 +97,14 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.12.0, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.11.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
